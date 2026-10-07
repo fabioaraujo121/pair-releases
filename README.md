@@ -9,9 +9,10 @@ This repository holds the releases. Install with Homebrew:
 
 ```sh
 brew tap fabioaraujo121/tap
-brew install --cask pair     # pulls tmux, neovim, sox, whisper.cpp
-pair doctor --fix            # downloads the whisper model (1.6 GB)
-pair doctor --mic            # records one second so macOS asks for microphone access
+brew trust fabioaraujo121/tap   # Homebrew asks this once of any third-party tap
+brew install --cask pair        # pulls tmux, neovim, sox, whisper.cpp
+pair doctor --fix               # downloads the whisper model (1.6 GB, verified)
+pair doctor --mic               # records one second so macOS asks for microphone access
 ```
 
 In a repository: `pair init` (or `pair init --agent codex`), then `pair`.
