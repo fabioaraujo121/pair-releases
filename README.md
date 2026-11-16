@@ -5,9 +5,9 @@ The agent explains what it is about to do out loud, points at code in Neovim,
 asks questions and listens for the answer, while you watch edits land live
 and can interrupt at any time. Everything runs locally.
 
-Website: https://pairwithagent.com
+Website: https://pairwithagent.com · Source: https://github.com/fabioaraujo121/pair (MIT)
 
-This repository holds the releases. Install with Homebrew:
+This repository holds the releases; the source is at github.com/fabioaraujo121/pair. Install with Homebrew:
 
 ```sh
 brew tap fabioaraujo121/tap
